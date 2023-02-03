@@ -3,6 +3,10 @@
     height: 687px;
  &__container{
     position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     max-width: 1440px;
     height: 591px;
     padding-top: 120px;
@@ -12,8 +16,12 @@
     background-position: center;
     background-size: cover;
     text-align: center
+    
 }
 &__title{
+    width: 486px;
+    // margin-left: 447px;
+    // margin-right: 447px;
     margin-bottom: 24px;
     font-weight: 400;
     font-size: 72px;
