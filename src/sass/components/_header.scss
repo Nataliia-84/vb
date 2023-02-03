@@ -1,0 +1,52 @@
+header{
+   height: 113px;
+   background-color: $bg-color;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav{
+    background-color: $white-color;
+    height: 80px;
+    
+}
+.discr{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.64;
+    text-align: center;
+    letter-spacing: 0.10998px;
+    color:$white-color;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav{
+    display: flex;
+&__list{
+    display: flex;
+
+    font-size: 18px;
+    line-height: 1.39;
+    text-align: center;
+    letter-spacing: 0.10998px;
+
+} 
+
+&__item + &__item{
+    margin-left: 33px;
+}
+
+&__link{
+    color:$text-color;
+    padding-top: 27px;
+    padding-bottom: 25px;
+}
+
+}
+
+
+
+

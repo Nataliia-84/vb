@@ -1,0 +1,77 @@
+.button{
+    display: inline-block;
+    min-width: 166px;
+    height: 80px;
+    padding: 27px 64px 28px 64px;
+    font-family: inherit;
+    font-size: 14px;
+    line-height: 25px;
+    text-align: center;
+    letter-spacing: 0.10998px;
+    text-transform: uppercase;
+    color: $white-color;
+    background-color: $blue-color;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.hero__button{
+    margin-left: 130px;
+    margin-right: 130px;
+    background-color: transparent;
+    border: 1px solid $white-color;
+    min-width: 266px;
+    height: 50px;
+    padding: 16px 27px 31px 27px;
+    
+}
+
+.footer__button{
+    
+    margin-left: 28px;
+    background-color: transparent;
+    border: 1px solid $white-color;
+    min-width: 191px;
+    height: 53px;
+    padding: 17px 69px 19px 69px;
+}
+
+.stay__button{
+    min-width: 234px;
+    height: 52px;
+    padding: 17px 37px 21px 37px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+
+}
+
+.reviews__button{
+    min-width: 243px;
+    height: 52px;
+    padding: 17px 37px 21px 37px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.08;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+}
+
+.experts__button{
+    margin-left: 402px;
+    margin-right: 402px;
+    margin-bottom: 93px;
+    min-width: 220px;
+    height: 52px;
+    padding: 17px 66px 21px 66px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.08;
+    text-align: center;
+    letter-spacing: 0.11px;
+    text-transform: uppercase;
+}

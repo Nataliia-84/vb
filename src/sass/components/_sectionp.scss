@@ -1,0 +1,18 @@
+.stay__container{
+    background-image: url(/src/images/relax.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.stay__title{
+    margin-bottom: 83px;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 1.2;
+
+color: $white-color;
+}
+.stay__content{
+    padding: 114px 336px ;
+    text-align: center;
+}
