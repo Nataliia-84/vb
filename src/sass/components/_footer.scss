@@ -1,0 +1,86 @@
+.footer{
+    
+    background-color: $bg-color;
+
+}
+.footer__container{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.footer__content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding-left: 182px;
+    padding-right: 189px;
+    margin-bottom: 32px;
+}
+
+.footer__list{
+    
+    font-size: 17px;
+    line-height: 1.48;
+    
+}
+.footer__item:not(:last-child){
+margin-bottom: 6px;
+}
+.footer__link{
+     color: $white-color;
+}
+
+.footer__box--title{
+    margin-bottom: 1px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.33;
+    color: $white-color;
+}
+
+.footer__box--discr{
+    margin-bottom: 67px;
+    font-size: 18px;
+    line-height: 1.40;
+    color: $white-color;
+}
+
+.input{
+    padding: 13px 6px;
+    background-color: $bg-color;
+    border: none;
+    border-bottom: 1px solid $white-color;
+    outline: none;
+    width: 292px;
+}
+
+.input::placeholder{
+    font-size: 14px;
+    line-height: 1.18px;
+    text-transform: uppercase;
+    color: $placeholder-color;
+}
+
+.social{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+&__list{
+    display: flex;
+
+}
+
+&__item + &__item{
+    margin-left: 27px;
+}
+
+&__icon{
+    fill: $white-color;
+}
+}
+.copy{
+    font-size: 14px;
+    line-height: 1.64;
+    letter-spacing: 0.10998px;
+    color:$white-color;
+}

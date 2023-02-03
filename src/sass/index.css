@@ -1,0 +1,508 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  background: #ffffff;
+  color: #404040;
+}
+
+.container {
+  width: 1440px;
+  padding: 0 15px;
+  margin: 0 auto;
+  outline: 1px solid tomato;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  height: 113px;
+  background-color: #161f49;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav {
+  background-color: #ffffff;
+  height: 80px;
+}
+
+.discr {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.64;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  color: #ffffff;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.nav {
+  display: flex;
+}
+.nav__list {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.39;
+  text-align: center;
+  letter-spacing: 0.10998px;
+}
+.nav__item + .nav__item {
+  margin-left: 33px;
+}
+.nav__link {
+  color: #404040;
+  padding-top: 27px;
+  padding-bottom: 25px;
+}
+
+.button {
+  display: inline-block;
+  min-width: 166px;
+  height: 80px;
+  padding: 27px 64px 28px 64px;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.10998px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2468ff;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.hero__button {
+  margin-left: 130px;
+  margin-right: 130px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  min-width: 266px;
+  height: 50px;
+  padding: 16px 27px 31px 27px;
+}
+
+.footer__button {
+  margin-left: 28px;
+  background-color: transparent;
+  border: 1px solid #ffffff;
+  min-width: 191px;
+  height: 53px;
+  padding: 17px 69px 19px 69px;
+}
+
+.stay__button {
+  min-width: 234px;
+  height: 52px;
+  padding: 17px 37px 21px 37px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+}
+
+.reviews__button {
+  min-width: 243px;
+  height: 52px;
+  padding: 17px 37px 21px 37px;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.08;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+}
+
+.experts__button {
+  margin-left: 402px;
+  margin-right: 402px;
+  margin-bottom: 93px;
+  min-width: 220px;
+  height: 52px;
+  padding: 17px 66px 21px 66px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.08;
+  text-align: center;
+  letter-spacing: 0.11px;
+  text-transform: uppercase;
+}
+
+.logo__link--footer {
+  padding-left: 189px;
+}
+
+.logo__footer {
+  margin-bottom: 58px;
+  fill: #ffffff;
+}
+
+.footer__list {
+  font-size: 17px;
+  line-height: 1.48;
+}
+
+.hero {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 687px;
+}
+.hero__container {
+  position: relative;
+  max-width: 1440px;
+  height: 591px;
+  padding-top: 120px;
+  padding-bottom: 271px;
+  background-image: url(/src/images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+.hero__title {
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 72px;
+  line-height: 1.11;
+  color: #ffffff;
+  text-align: center;
+}
+.hero__discr {
+  margin-bottom: 16px;
+  font-size: 21px;
+  line-height: 1.38;
+  color: #ffffff;
+  text-align: center;
+}
+.hero__image {
+  position: absolute;
+  height: 324px;
+  left: 30%;
+  right: 30%;
+  top: 407px;
+}
+
+.benefits__content {
+  padding: 116px 234px 120px 234px;
+}
+
+.benefits__title {
+  margin-bottom: 83px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.benefits__list {
+  display: flex;
+}
+
+.benefits__icon {
+  margin-bottom: 32px;
+  fill: #ffffff;
+  stroke: #2468ff;
+}
+
+.benefits__subtitle {
+  margin-bottom: 17px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 21px;
+  line-height: 1.15;
+}
+
+.benefits__discr {
+  margin-bottom: 76px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.benefits__link {
+  color: #404040;
+}
+
+.benefits__link::after {
+  display: inline-block;
+  content: "";
+  width: 100%;
+  height: 1px;
+  background-color: #404040;
+}
+
+.expert__content {
+  padding: 120px 207px;
+}
+
+.experts__title {
+  margin-bottom: 35px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.experts__discr {
+  margin-bottom: 45px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.experts__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experts__link {
+  color: #404040;
+}
+
+.experts__icon {
+  margin-right: 18px;
+  fill: #ffffff;
+  stroke: #000000;
+}
+
+.reviews__container {
+  padding-top: 117px;
+}
+
+.reviews__content {
+  display: flex;
+}
+
+.reviews__photo {
+  padding-bottom: 137px;
+}
+
+.reviews__box {
+  padding-left: 79px;
+  padding-right: 79px;
+}
+
+.reviews__title {
+  margin-bottom: 123px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.reviews__list {
+  margin-bottom: 36px;
+  display: flex;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.32;
+  text-transform: uppercase;
+}
+
+.reviews__item + .reviews__item {
+  margin-left: 30px;
+}
+
+.reviews__link {
+  color: #999999;
+}
+
+.reviews__link::after {
+  display: block;
+  margin-top: 6px;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: #DEDEDE;
+}
+
+.reviews__link--current {
+  color: #2468ff;
+}
+
+.reviews__link--current::after {
+  color: #2468ff;
+}
+
+.reviews__discr {
+  margin-bottom: 28px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.45;
+}
+
+.reviews__subtitle {
+  margin-bottom: 14px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #646565;
+}
+
+.reviews__address {
+  margin-bottom: 30px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.39;
+  color: #646565;
+}
+
+.stay__container {
+  background-image: url(/src/images/relax.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.stay__title {
+  margin-bottom: 83px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 1.2;
+  color: #ffffff;
+}
+
+.stay__content {
+  padding: 114px 336px;
+  text-align: center;
+}
+
+.footer {
+  background-color: #161f49;
+}
+
+.footer__container {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-left: 182px;
+  padding-right: 189px;
+  margin-bottom: 32px;
+}
+
+.footer__list {
+  font-size: 17px;
+  line-height: 1.48;
+}
+
+.footer__item:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+.footer__link {
+  color: #ffffff;
+}
+
+.footer__box--title {
+  margin-bottom: 1px;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 1.33;
+  color: #ffffff;
+}
+
+.footer__box--discr {
+  margin-bottom: 67px;
+  font-size: 18px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.input {
+  padding: 13px 6px;
+  background-color: #161f49;
+  border: none;
+  border-bottom: 1px solid #ffffff;
+  outline: none;
+  width: 292px;
+}
+
+.input::-moz-placeholder {
+  font-size: 14px;
+  line-height: 1.18px;
+  text-transform: uppercase;
+  color: #989898;
+}
+
+.input:-ms-input-placeholder {
+  font-size: 14px;
+  line-height: 1.18px;
+  text-transform: uppercase;
+  color: #989898;
+}
+
+.input::placeholder {
+  font-size: 14px;
+  line-height: 1.18px;
+  text-transform: uppercase;
+  color: #989898;
+}
+
+.social {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.social__list {
+  display: flex;
+}
+.social__item + .social__item {
+  margin-left: 27px;
+}
+.social__icon {
+  fill: #ffffff;
+}
+
+.copy {
+  font-size: 14px;
+  line-height: 1.64;
+  letter-spacing: 0.10998px;
+  color: #ffffff;
+}/*# sourceMappingURL=index.css.map */
