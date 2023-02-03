@@ -1,12 +1,13 @@
 .explore{
-padding-top: 76px;
-padding-bottom: 119px;
+
+
 &__container{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 &__title{
+    padding-top: 76px;
     margin-bottom: 21px;
     font-family: 'Roboto';
     font-style: normal;
@@ -20,12 +21,22 @@ padding-bottom: 119px;
     margin-bottom: 28px;
 }
 &__discr{
-
+padding-bottom: 119px;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.14;
 text-transform: uppercase;
 color: $text-color;
+
 }
+
+}
+.explore__discr::after{
+    content: '';
+    display: block;
+    width: auto;
+    margin-top: 5px;
+    height: 1px;
+    background: $text-color;
 }
