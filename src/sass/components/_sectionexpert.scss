@@ -24,10 +24,14 @@ padding: 120px 207px;
 }
 
 .experts__link{
+    display: flex;
+    align-items: center;
     color: $text-color;
+
 }
 
 .experts__icon{
+
     margin-right: 18px;
     fill: $white-color;
     stroke: $black-color;

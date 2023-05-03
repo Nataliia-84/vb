@@ -14,16 +14,24 @@
 
 .benefits__list{
     display: flex;
+    justify-content: space-between;
+    gap: 150px;
+   
 
 }
 
-// .benefits__item + .benefits__item{
-//     margin-left: 150px;
-// }
+
 .benefits__icon{
     margin-bottom: 32px;
+    padding-left: 12px;
     fill: $white-color;
     stroke: $blue-color;
+}
+
+.benefits__thumb{
+    padding-left: 12px;
+    padding-right: 12px;
+    width: 231px;
 }
 
 .benefits__subtitle{
@@ -35,12 +43,24 @@
 }
 
 .benefits__discr{
-    margin-bottom: 76px;
+    // margin-bottom: 78px;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 1.4;
 
+}
+.distance{
+    margin-bottom: 78px;
+}
+
+.distance_one{
+     margin-bottom: 26px;
+}
+
+.distance_two{
+    margin-bottom: 105px;
+    
 }
 
 .benefits__link{
@@ -50,7 +70,7 @@
 .benefits__link::after{
     display: inline-block;
     content: '';
-    width: 100%;
+    width:100%;
     height: 1px;
     background-color: $text-color;
 }
