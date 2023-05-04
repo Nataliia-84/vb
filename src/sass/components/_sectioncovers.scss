@@ -1,0 +1,25 @@
+.covers{
+    background-color: #161F49;
+    &__container{
+        text-align: center;
+    }
+    &__title{
+        margin-bottom: 44px;
+        padding-top: 117px;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 1.2;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    &__discr{
+        margin-bottom: 38px;
+        padding-left: 365px;
+        padding-right: 365px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.4;
+        text-align: center;
+        color: #FFFFFF;
+    }
+}
